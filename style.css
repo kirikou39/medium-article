@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: rgba(250, 250, 250, 1);
+  color: #494949;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 110px;
+}
+
+.container {
+  width: 900px;
+  margin: 30px auto;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.banner h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.banner p {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  /*color: rgba(220, 220, 220, 1);*/
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0.8
+}
+
+h2 {
+  color: #00adb5;
+  font-weight: 400;
+  display: block;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  display: block;
+  text-align: justify;
+}
+
+a {
+  background-image:
+    linear-gradient(to bottom, #def4f0, #def4f0);
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image:
+    linear-gradient(to bottom, #74d4c0, #74d4c0);
+}
